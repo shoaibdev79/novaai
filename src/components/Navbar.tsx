@@ -17,7 +17,10 @@ export default function Navbar() {
         <nav className="hidden items-center gap-8 md:flex lg:gap-10">
           {links.map((label, i) => (
             <Reveal key={label} delay={100 + i * 100}>
-              <a href="#" className="text-sm text-white/85 transition-colors duration-300 hover:text-white">
+              <a
+                href={label === 'About' ? '#about' : '#'}
+                className="text-sm text-white/85 transition-colors duration-300 hover:text-white"
+              >
                 {label}
                 {label === 'Projects' && (
                   <sup className="ml-0.5 font-mono text-[10px] text-white/60">6</sup>

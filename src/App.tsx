@@ -2,6 +2,7 @@ import ScrollVideo from './components/ScrollVideo';
 import Navbar from './components/Navbar';
 import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
+import SectionThree from './components/SectionThree';
 
 export default function App() {
   return (
@@ -13,6 +14,8 @@ export default function App() {
           <SectionOne />
           <div className="h-[80vh]" aria-hidden="true" />
           <SectionTwo />
+          <div className="h-[60vh]" aria-hidden="true" />
+          <SectionThree />
         </main>
       </div>
     </div>
