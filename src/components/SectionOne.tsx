@@ -14,7 +14,7 @@ export default function SectionOne() {
         <div className="flex flex-col gap-2">
           {services.map((s, i) => (
             <Reveal key={s} delay={150 + i * 120}>
-              <span className="font-mono text-xs uppercase tracking-[0.15em] text-white/90 drop-shadow-md">{s}</span>
+              <span className="font-mono text-xs uppercase tracking-[0.15em] text-black">{s}</span>
             </Reveal>
           ))}
         </div>
