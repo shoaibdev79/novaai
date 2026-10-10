@@ -125,7 +125,7 @@ export default function Hero() {
 
       <div className="absolute bottom-8 left-6 md:left-12 z-20 hidden sm:block">
         <div className="font-display flex flex-col gap-1 items-start text-white/80">
-          <span className="text-3xl text-signal"><AnimatedCounter end={48} suffix="+" /></span>
+          <span className="text-3xl text-signal"><AnimatedCounter end={58} suffix="+" /></span>
           <span className="font-mono text-xs text-mist-900 tracking-wider">Projects Delivered</span>
         </div>
       </div>
